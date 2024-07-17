@@ -104,9 +104,19 @@ background-color: #c484e3; /* Color morado más claro al pasar el mouse */
     transform: rotateY(180deg); /* Rota la tarjeta cuando se pasa el mouse por encima */
 }
 
-
-
-
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.social-links li {
+    margin: 0 10px;
+}
+.social-links img {
+    width: 32px;
+    height: 32px;
+}
 
 
 
