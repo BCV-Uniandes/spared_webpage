@@ -61,7 +61,7 @@
     <nav class="navbar is-primary " x-data="{ openNav: false }">
     <div class="container">
     <div class="navbar-brand">
-        <a href="" class="navbar-item">
+        <a href="../" class="navbar-item">
             SpaRED
         </a>
         <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
@@ -72,8 +72,8 @@
     </div>
     <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
         <div class="navbar-start">
-            <a href="../metadata.html" class="navbar-item"> Database Metadata</a>
-            <a href="../People_Page/people.html" class="navbar-item">People</a> <!-- Enlace a pagina de people -->
+            <a href=".././metadata.html" class="navbar-item"> Database Metadata</a>
+            <a href=".././People_Page/people.html" class="navbar-item">People</a> <!-- Enlace a pagina de people -->
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">Details</a>
                 <div class="navbar-dropdown">
