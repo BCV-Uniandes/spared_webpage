@@ -208,7 +208,7 @@ def edit_HTML(text_html: str, dataframe: pd.DataFrame) -> str:
             with open(os.path.join("Datasets_Pages", row['Abbreviation'], f"dataset_{row['Abbreviation']}.html"), 'w', encoding='utf-8') as file:
                 file.write(base_html_str)
         
-
+#Run this file in ./spared_webpage
 df = load_csv_file(os.path.join('HTML Generator', 'Datasets_all_data.csv'))
 create_folders(df, False)
 #Sample HTML
